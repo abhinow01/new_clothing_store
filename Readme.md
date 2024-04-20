@@ -11,13 +11,13 @@ The project consists of HTML, CSS, and JavaScript files. It utilizes Axios for f
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/abhinow01/clothing_store.git
+    git clone https://github.com/abhinow01/new_clothing_store.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd clothing_store
+    cd new_clothing_store
     ```
 
 3. Open the `index.html` file in your web browser to view the website.
