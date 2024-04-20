@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>E clothing . com</title>
+</head>
+<body> 
+    <div class="container">
+        <div class="heading">
+            <h1>SELECT YOUR CHOICE</h1>
+        </div>
+        <div class="tabs">
+            <div class="tab active" onclick="toggleTab('men')" data-tab="men"> <img src="./fluent-emoji-high-contrast_boy.png" style="width: 15px; padding-right: 10px;"/>Men</div>
+            <div class="tab" onclick="toggleTab('women')" data-tab="women">
+                <img src="./fluent-emoji-high-contrast_girl.png" style="width: 15px; padding-right: 10px;"/>Women
+            </div>
+            
+            <div class="tab" onclick="toggleTab('kids')" data-tab="kids"><img src="Vector (1).png" style="width: 14px; padding-right: 10px;"/>Kids</div>
+        </div>
+        
+        <div class="product-cards">
+            <div class="product-card men active">
+                <!-- Product Cards for Men will be dynamically inserted here -->
+            </div>
+            <div class="product-card women">
+                <!-- Product Cards for Women will be dynamically inserted here -->
+            </div>
+            <div class="product-card kids">
+                <!-- Product Cards for Kids will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
